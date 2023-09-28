@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: rgb(154, 152, 152);
+
+}
+nav{
+display: flex;
+
+}
+h1{
+color: white;
+margin-top: 30px;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-shadow: 1px 1px 2px white;
+
+}
+header{
+    border: 2px solid rgb(206, 34, 169);
+    background-color: rgb(206, 34, 169);
+    width: 940px;height: 50px;
+    margin: 30px auto;
+}
+span{
+display: inline-block;
+  text-decoration: none;  
+margin: 10px 40px;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+ .srch{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 140px;height: 25px;
+    border: none;
+}
+.go{
+    width: 90px;height: 25px;   
+    text-align: center;
+    border: none;
+    background-color: black;
+}
+
+main{
+border: 2px solid white;
+    width: 700px;height: 400px;
+    transform: translate(290px, -20px);
+    background-color: white;
+}
+h2{   font-family: lobster;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+p,
+h3{
+    font-family: lobster;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+section{
+    border: 2px solid  rgb(206, 34, 169);
+width: 220px;height: 400px;
+transform: translate(1008px, -425px);
+background-color:  rgb(206, 34, 169);
+}
+footer{
+    border: 2px solid white;
+    background-color: white;
+    width: 940px;height: 50px;
+    transform: translate(290px, -410px);
+}
+
+ul li{
+    margin-left: 20px;
+    padding: 7px;
+
+}
+@font-face {
+    font-family: lobster;
+    src: url(./fonts/Lobster-Regular.ttf);
+}
