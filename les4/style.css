@@ -1,0 +1,94 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.sky{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.one{
+    
+animation-name: bird;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+
+}
+ @keyframes bird
+{
+0%
+{
+    
+margin-left: 500px;
+}
+/* 25%
+{
+    margin-left: 40px;
+}
+50%
+{
+    margin-left: 80px;
+}
+75%
+{
+    margin-left: 160px;
+} */
+
+
+ 100%
+{
+    margin-right: 520px;
+ }
+ /* 75%
+ {
+   margin-left:40px ; 
+ }
+50%
+{
+    margin-left: 80px;
+}
+25%
+{
+    margin-left: 160%;
+}
+ 
+ */
+
+} 
+
+.two{
+width: 200px;height: 200px;
+margin-right: 50px;
+/* animation-name: sun;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear; */
+animation: sun 1s linear infinite;
+}
+@keyframes sun
+{
+
+0%{
+    transform: rotate(60deg);
+}
+100%{
+    transform: rotate(180deg);
+}
+
+
+
+}
+
+.sea{
+
+    background-image: url(https://c1.wallpaperflare.com/preview/761/998/455/water-ocean-sea-waves.jpg);
+    background-repeat: no-repeat;
+background-position:0px;
+    background-size: cover;
+    margin-top: 30px;
+    width: 100vw;height: 380px;
+}
