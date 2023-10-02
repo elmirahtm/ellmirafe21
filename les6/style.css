@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body:hover{
+    background-color: chartreuse;
+}
+.circle1{
+border: 3px solid green;
+width: 250px;height: 250px;
+border-radius: 50%;
+    position: relative;
+    margin: 100px auto;
+    animation: daire2 1s infinite;
+}
+.crcl1{
+    position: absolute;
+    border: 2px solid green;
+    width: 30px;height: 30px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 40px;
+}
+
+@keyframes daire2{
+0%{
+transform: rotate(60deg);
+}
+100%{
+transform: rotate(380deg);
+
+}
+
+}
+
+.circle2{
+    position: absolute;
+    border: 3px solid red;
+width: 180px;height: 180px;
+border-radius: 50%;
+margin: 30px  40px;
+animation: daire 1s infinite;
+
+}
+.crc2{
+    border: 2px solid red;
+width: 30px;height: 30px;
+border-radius: 50%;
+background-color: red;
+margin-left: 25px;
+}
+
+@keyframes daire{
+    0%{
+    transform: rotate(30deg);
+    }
+    100%{
+    transform: rotate(300deg);
+    
+    }
+}

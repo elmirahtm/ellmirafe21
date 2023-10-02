@@ -1,0 +1,39 @@
+.container{
+border: 2px solid ;
+width: 500px;height: 300px;
+margin: 70px auto;
+}
+.box{
+   display: flex; 
+justify-content: space-evenly;
+
+}
+.box{
+
+.div{
+    background-color: red;
+    width: 60px;
+    transition-property: all;
+    transition-duration: 1s;
+    margin: 10px 0;
+}
+&:hover{
+height: 280px;
+
+}
+.linear{
+    transition-timing-function: linear;
+}
+.ease {
+    transition-timing-function: ease;
+}
+.ease-in{
+    transition-timing-function: ease-in;
+}
+.ease-out{
+    transition-timing-function: ease-out;
+}
+.ease-in-out{
+    transition-timing-function: ease-in-out;
+}
+}
