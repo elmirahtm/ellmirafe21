@@ -1,0 +1,81 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: cornflowerblue;
+}
+
+.grid{
+border: 2px solid white;
+width: 900px;height: 400px;
+margin: 50px auto;
+
+display: grid;
+grid-template-columns: 4fr 2fr 3fr 2fr;
+grid-template-rows: 3fr 2fr 6fr ;
+
+}
+.value{
+margin: 10px 15px;
+padding: 5px;
+}
+
+
+
+
+
+.value1{
+background-image: url(https://maraqli-sekiller.com/uploads/posts/2020-05/medium/maraqli-sekiller.com_3d-menzere-27.jpg);
+grid-row: 1/4;
+    
+    
+}
+
+.value2{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZzX8MDzXJaELr_mJGzNHUsN8nUgd2GKrYQ&usqp=CAU);
+}
+
+.value3{
+grid-row: 1/3;
+height: 160px;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSkOioq_HTS5ZvgtzqhKldgMiDWALObVP1cg&usqp=CAU);
+}
+
+.value4{
+background-image: url(https://imgs.su/users/25866/1444740264.jpg);
+grid-row: 1/3;
+}
+
+.value5{
+height: 100px;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKHKqLeCCbnEjTvFeoQrv4_bML8DIKhLvmpw&usqp=CAU);
+}
+
+.value6{
+background-image: url(https://i.pinimg.com/550x/72/8a/50/728a502887278d21223a955586ebe1a5.jpg);
+margin-top: -30px;
+}
+
+.value7{
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/43/Svln4821_ordubad_resimleri_fotolari_sekilleri_photos_pictures_autumn_fall_payiz_sonbahar_colorful.JPG);
+
+}
+
+.value8{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKuFFZPg-BUXBBvf9co64MGKGXutQSRzhcQg&usqp=CAU);
+}
+
+.value1,
+.value2,
+.value3,
+.value4,
+.value5,
+.value6,
+.value7,
+.value8{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
