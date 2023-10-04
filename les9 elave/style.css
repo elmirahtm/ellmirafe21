@@ -1,0 +1,80 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: deepskyblue;
+}
+.grid2{
+    display: grid;
+grid-template-columns: 4fr   3fr ;
+grid-template-rows: 140px 180px;
+border: 2px solid white;
+width: 610px;height: 330px;
+margin: 70px auto;
+}
+.taske{
+    margin: 10px 5px;
+}
+.task6{
+    border-radius: 50%;
+    background-color: lime;
+    grid-row: 2/3;
+    grid-column: 1/2; 
+}
+.task7{
+border-radius: 30%;
+background-color: aquamarine;
+}
+.task8{
+
+    border-radius: 20%;
+    background-color: darkcyan;
+    grid-row: 1/2;
+grid-column: 1/2;
+}
+.task9{
+border-radius: 70%;
+background-color: purple;
+
+}
+
+
+
+.grid{
+display: grid;
+grid-template-columns: 4fr   3fr 5fr;
+grid-template-rows: 140px 160px;
+border: 2px solid white;
+width: 600px;height: 300px;
+margin: 70px auto;
+}
+
+.task1{
+    background-color:red;
+    grid-row: 1/-1;
+}
+
+.task2{
+background-color: aqua;
+}
+
+.task3{
+background-color: lightgreen;
+grid-row: 1/2;
+grid-column: 2/3;
+}
+
+.task4{
+background-color: blue;
+}
+
+.task5{
+background-color: blueviolet;
+grid-row: 2/3;
+grid-column: 2/3;
+}
+
+
