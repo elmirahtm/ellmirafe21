@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+.boxes{
+
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    border: 2px solid white; 
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+    
+}
+.box{
+    border: 2px solid rgb(12, 180, 9) ;
+    background-color: rgb(12, 180, 9);
+    height: 20px;
+    width: 60px;
+    padding: 20px;
+    margin: 10px 10px;
+    transition: all 2s ;
+    box-sizing: border-box;
+    
+}
+.boxes:hover .box{
+    height: 90%;
+
+}
+
+.box1{
+    transition-timing-function: ease;
+}
+.box2{
+transition-timing-function: ease-in;
+}
+.box3{
+    transition-timing-function: ease-in-out; 
+}
+.box4{
+transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+}
+.box5{transition-timing-function: linear;
+}
+
+
+
+/* @keyframes elmira {
+    0%{
+
+    
+    }
+
+
+    100%{
+        
+.box1{
+    animation-timing-function: ease;
+}
+.box2{
+animation-timing-function: ease-in;
+}
+.box3{
+    animation-timing-function: ease-in-out; 
+}
+.box4{
+animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+}
+.box5{animation-timing-function: linear;
+}
+    }
+} */
